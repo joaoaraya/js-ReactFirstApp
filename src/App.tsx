@@ -1,13 +1,13 @@
-import { Button } from './components/button'
+import { ButtonA, ButtonB } from './components/button'
 
 function App() {
   return (
     <div>
       <h1>Hello World!</h1>
-      <Button text="Clique em mim" />
-      <Button />
-      <Button />
-      <Button text="Não clique em mim" />
+      <ButtonA text="Clique em mim" />
+      <ButtonB />
+      <ButtonB />
+      <ButtonA text="Não clique em mim" />
     </div>
   );
 }
